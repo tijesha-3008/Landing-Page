@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    
+
+ /* CSS Reset */
+ body {
+     margin: 0px;
+     padding: 0px;
+     background: url('images/bg.jpg.jpg');
+ }
+ .header {
+     display: flex;
+
+ }
+
+ .cent {
+     position: absolute;
+     left: 270px;
+ }
+
+ .right {
+     margin-right: 150px;
+     position: absolute;
+     right: 0px;
+     margin-right: 0px;
+     top: 10px;
+ }
+
+ .navbar li {
+     float: left;
+     list-style: none;
+
+ }
+
+ .navbar li a {
+     color: white;
+     padding: 10px 10px;
+     font-size: large;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .navbar li a:hover {
+     color: rgb(230, 88, 88);
+ }
+
+ .caption {
+     margin: 0px;
+     font-size: 20px;
+     margin-left: 15px;
+     padding: 0px;
+     color: rgb(230, 88, 88);
+ }
+
+ .img {
+     height: 60px;
+     margin-left: 10px;
+     background: black;
+     border: 2px solid rgb(230, 88, 88);
+     border-radius: 8px;
+ }
+
+ .container {
+     padding-left: 700px;
+     margin-top: 50px;
+     /* position:absolute;
+   border:2px solid white;
+   left:700px;
+   width:50px;
+   height: 500px;  */
+ }
+
+ .form-group {
+     position: relative;
+     padding-left: 100px;
+ }
+
+ .form-group input {
+     width: 300px;
+     padding: 5px;
+     border: 2px solid rgb(230, 88, 88);
+     margin: 11px auto;
+     font-size: 15px;
+     border-radius: 8px;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ h1 {
+     color:white;
+     font-size: 30px;
+     padding-left: 40px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* text-decoration: underline rgb(230, 88, 88) 3px ; */
+ }
+
+ .btn {
+     margin: 0px 9px;
+     background-color: black;
+     color: white;
+     padding: 4px 14px;
+     border: 2px solid rgb(230, 88, 88);
+     border-radius: 10px;
+     font-size: 20px;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     color: grey;
+ }
+
+ .btnn {
+
+     height: 40px;
+     width: 313px;
+     margin-left: 100px;
+     padding: 5px;
+     top: 10px;
+ }
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- div class for logo -->
+        <div class="left">
+        <img src='images/img12.jpg' class="img" alt="LOGO">
+        <p class="caption">FitQuest</p>
+        </div>
+        <!-- div class for navigation bar -->
+        <div class="cent">
+        <ul class="navbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FITNESS CALCULATOR</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+        </div>
+        <!-- div class for buttons -->
+        <div class="right">
+          <button class="btn">Call us now</button>
+          <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Kolkata now</h1>
+        <form action="noaction.php">
+        <div class="form-group">
+        <input type="text" name="" placeholder="ENTER YOUR NAME">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="ENTER YOUR AGE">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="ENTER YOUR GENDER">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="ENTER YOUR LOCALITY">
+        </div>
+        <div class="form-group">
+         <input type="text" name="" placeholder="ENTER YOUR EMAIL-ID">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="ENTER YOUR PHONE NO.">
+        </div>
+        <button class="btn btnn">SUBMIT</button>
+        </form>
+    </div> 
+</body>
+</html>
